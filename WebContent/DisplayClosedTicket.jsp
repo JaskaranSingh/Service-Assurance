@@ -31,8 +31,8 @@
 		String url = "jdbc:oracle:thin:@192.168.0.139:1521:orcl";
 		try {
 			con = DriverManager.getConnection(url, user, password);
-			String query1 = "Select * from TICKET_INFORMATION where status = 'Closed' and ticket_type = 'Single'";
-			String query2 = "Select * from TICKET_INFORMATION where status = 'Closed' and ticket_type = 'Group Ticket'";
+			String query1 = "Select * from TICKET_INFORMATION where status = 'Closed' and ticket_type = 'Single' order by Ticket_id";
+			String query2 = "Select * from TICKET_INFORMATION where status = 'Closed' and ticket_type = 'Group Ticket' order by Ticket_id";
 			pstmt = con.prepareStatement(query1);
 			rs1 = pstmt.executeQuery();
 

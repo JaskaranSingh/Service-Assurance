@@ -196,8 +196,8 @@ public class ProjIndex extends HttpServlet {
 					 +"</textarea>" + "</td> </tr>" +
 
 					 "<tr> <td>Status:</td><td>"
-					 +"<input type=\"radio\" id=\"rb1\" name=\"status\" value ='open' ><label for=\"rb1\">Open</label>"+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
-					 +"<input type=\"radio\"  id=\"rb2\" name=\"status\" value ='close'><label for=\"rb2\">Closed</label>"
+					 +"<input type=\"radio\" id=\"rb1\" name=\"status\" value ='Open' ><label for=\"rb1\">Open</label>"+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+					 +"<input type=\"radio\"  id=\"rb2\" name=\"status\" value ='Closed'><label for=\"rb2\">Closed</label>"
 					 + "</td> </tr>" +
 
 					 "<tr> <td></td><td>" +"<input type='submit' value='Submit' class=\"vzbtnmedium\" onclick='return validate()'/>" +
