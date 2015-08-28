@@ -18,6 +18,53 @@
 	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <title>Insert title here</title>
 <script>
+
+function func(value) {
+	if(value==1) {
+		document.getElementById('1').removeAttribute("style");
+		document.getElementById('2').setAttribute("style","display:none");
+		document.getElementById('3').setAttribute("style","display:none");
+		document.getElementById('5').setAttribute("style","display:none");
+		document.getElementById('6').setAttribute("style","display:none");
+	}
+	else if(value==2) {
+		document.getElementById('1').setAttribute("style","display:none");
+		document.getElementById('2').removeAttribute("style");
+		document.getElementById('3').setAttribute("style","display:none");
+		document.getElementById('5').setAttribute("style","display:none");
+		document.getElementById('6').setAttribute("style","display:none");
+	}
+	else if(value==3) {
+		document.getElementById('1').setAttribute("style","display:none");
+		document.getElementById('2').setAttribute("style","display:none");
+		document.getElementById('3').removeAttribute("style");
+		document.getElementById('5').setAttribute("style","display:none");
+		document.getElementById('6').setAttribute("style","display:none");
+	}
+	else if(value==5) {
+		
+		document.getElementById('1').setAttribute("style","display:none");
+		document.getElementById('2').setAttribute("style","display:none");
+		document.getElementById('3').setAttribute("style","display:none");
+		document.getElementById('5').removeAttribute("style");
+		document.getElementById('6').setAttribute("style","display:none");
+	}
+	else if(value==6) {
+		document.getElementById('1').setAttribute("style","display:none");
+		document.getElementById('2').setAttribute("style","display:none");
+		document.getElementById('3').setAttribute("style","display:none");
+		document.getElementById('5').setAttribute("style","display:none");
+		document.getElementById('6').removeAttribute("style");
+	} else {
+		document.getElementById('1').setAttribute("style","display:none");
+		document.getElementById('2').setAttribute("style","display:none");
+		document.getElementById('3').setAttribute("style","display:none");
+		document.getElementById('5').setAttribute("style","display:none");
+		document.getElementById('6').setAttribute("style","display:none");
+	}
+		//style.display="block";
+}
+	
 	function validate() {
 		var result = document.getElementById('TID').value;
 		if (result == "") {

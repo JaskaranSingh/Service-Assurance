@@ -119,7 +119,7 @@ public class ProjIndex extends HttpServlet {
 
 							//"<table class=\"vztable1\">" +
 							"<tr><td>Trouble Service:</td> <td align=\"center\">" +
-							"<select id='TID' name='TID' class=\"select-style\">" +
+							"<select id='TID' name='TID' class=\"select-style\" onchange=\"func(this.value);\">" +
 							"<option value='' disabled selected >Select Trouble Service</option>"
 							+
 							"<option value='1'>Voice</option>" +
@@ -128,8 +128,50 @@ public class ProjIndex extends HttpServlet {
 							"<option value=\"4\">Bundles</option>" +
 							"<option value=\"5\">Wireless</option>" +
 							"<option value=\"6\">Enterprise</option>" +
+							"</select>" + 
+							"&nbsp;<select id='1'  name='TID' class=\"select-style\" style = \"display:none\">" +
+							"<option value='' disabled selected >Product</option>"
+							+
+							"<option value='1'>Freedom_Essentials</option>" +
+							"<option value='2'>Digital_Voice</option>" +
 							"</select>" +
-							"</td> </tr>" +
+							
+	"<select id='2'  name='TID' class=\"select-style\" style = \"display:none\">" +
+		"<option value='' disabled selected >Product</option>"
+		+
+		"<option value='1'>FIOS_Data_10/10</option>" +
+		"<option value='2'>Quantum_Data_50/50</option>" +
+		"<option value='3'>Quantum_Data_75/75</option>" +
+		"<option value=\"4\">Quantum_Data_100/100</option>" +
+		"<option value=\"5\">Quantum_Data_500/500</option>" +
+		"</select>" +
+		"<select id='3'  name='TID' class=\"select-style\" style = \"display:none\">" +
+		"<option value='' disabled selected >Product</option>"
+		+
+		"<option value='1'>Custom_FIOS_TV</option>" +
+		"<option value='2'>Custom_FIOS_HD</option>" +
+		"<option value='3'>Preferred_HD</option>" +
+		"<option value=\"4\">Ultimate_HD</option>" +
+		"</select>" +						
+		"<select id='5'  name='TID' class=\"select-style\" style = \"display:none\">" +
+		"<option value='' disabled selected >Product</option>"
+		+
+		"<option value='1'>Small_Wireless_10GB_5MBps</option>" +
+		"<option value='2'>Medium_Wireless_20GB_10MBps</option>" +
+		"</select>" +
+		"<select id='6'  name='TID' class=\"select-style\" style = \"display:none\">" +
+		"<option value='' disabled selected >Product</option>"
+		+
+		"<option value='1'>Cloud_500GB</option>" +
+		"<option value='2'>Cloud_1TB</option>" +
+		"<option value='3'>Cloud_2TB</option>" +
+		"<option value=\"4\">Security_StaticIP</option>" +
+		"<option value=\"5\">Security_DynamicIP</option>" +
+		"</select>" +
+							"</td>"
+							+ " </tr>" +
+							
+							
 
 					 "<tr> <td>Trouble Description:</td><td>"
 					 +"<input type='text' id='Trouble Description' value='' placeholder=\"Trouble Description\" class=\"vztext\" name='Trouble Description'>"

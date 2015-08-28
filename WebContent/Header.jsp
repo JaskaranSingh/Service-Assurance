@@ -45,7 +45,7 @@
 					<div id="main-header" class="main-header header-sticky">
 						<div class="container clearfix" >
 							<div class="logo">
-								<a href="index-2.html"><img src="assets/images/logo.png" alt="Verizon" /></a>
+								<a href="ServiceAssurance.jsp"><img src="assets/images/logo.png" alt="Verizon" /></a>
 								
 							</div>
 							<div class="header-right-toggle pull-right hidden-md hidden-lg" >
@@ -53,7 +53,7 @@
 							</div>
 							<nav class="main-navigation pull-right hidden-xs hidden-sm" style="border-bottom:1px solid #d2d3d4">
 								<ul style="font-size:0px;">
-									<li><a href="index-2.html">Home</a></li>
+									<li><a href="ServiceAssurance.jsp">Home</a></li>
 									<li><a href='index-2A.html'> <!--Class="has-submenu" -->Ordering </a>
 <!-- 										<ul class="sub-menu"> -->
 <!-- 											<li><a href="listing-2-columns.html">List 1</a></li> -->

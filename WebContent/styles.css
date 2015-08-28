@@ -911,7 +911,16 @@ color: #080808;
 }
 .select-style {
     /* border: 1px solid #ccc; */
-    width: 250px;
+    width: 180px;
+    border-radius: 3px;
+    overflow: hidden;
+/*     background:  url("menu-icon.png") no-repeat 90% 50%; */
+	background-color:#d2d3d4;
+}
+
+.select-style2 {
+    /* border: 1px solid #ccc; */
+    width: 80px;
     border-radius: 3px;
     overflow: hidden;
 /*     background:  url("menu-icon.png") no-repeat 90% 50%; */

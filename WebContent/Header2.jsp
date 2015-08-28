@@ -4,7 +4,6 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
 </head>
 <body>
 
@@ -21,7 +20,7 @@
 				<div class="content">
 					<nav class="responsive-menu">
 						<ul>
-							<li><a href="index-2.html">Home</a></li>
+							<li><a href="ServiceAssurance.jsp">Home</a></li>
 									<li><a href='index-2A.html'> <!--Class="has-submenu" -->Ordering </a>
 <!-- 										<ul class="sub-menu"> -->
 <!-- 											<li><a href="listing-2-columns.html">List 1</a></li> -->
