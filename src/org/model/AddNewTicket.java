@@ -30,9 +30,7 @@ public class AddNewTicket {
 			cstmt.setString(11,tb.getTicketStatus());
 			cstmt.setString(12,tb.getGroupTicketID());
 			cstmt.setString(13,tb.getCreatedBY());
-			System.out.println("Before Exe");
 			cstmt.execute();
-			System.out.println("After Exe");
 			String tid = cstmt.getString(1);
 			return tid;
 

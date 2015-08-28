@@ -98,7 +98,7 @@
 			}
 		%>
 	<div align="center">
-	<a href = "http://localhost:8080/ServiceAssurance/IndexRetrieveDetails.jsp" ><input type="button" value="Back" class="vzbtn1"></a>
+	<a href = "http://localhost:8080/ServiceAssurance/RetrieveDetails.jsp" ><input type="button" value="Back" class="vzbtn1"></a>
 	</div>
 	</div>
 	<jsp:include page="Header2.jsp"></jsp:include>
